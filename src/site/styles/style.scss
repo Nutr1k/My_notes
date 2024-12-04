@@ -3,6 +3,279 @@
 * MODIFY THE custom-style.scss FILE INSTEAD.
 ***/
 
+/* @settings
+
+name: Ebbsian Theme Settings
+id: ebbsian-theme
+collapsed: false
+settings:
+      -
+        id: h1-color-
+        title: H1 Colour
+        description: Change this to change the colour of the H1 line.
+        type: variable-select
+        default: var(--bright-blue)
+        options:
+            - var(--bright-red)
+            - var(--bright-orange)
+            - var(--bright-yellow)
+            - var(--bright-green)
+            - var(--bright-turquoise)
+            - var(--bright-blue)
+            - var(--bright-purple)
+            - var(--bright-pink)
+			- var(--default-color-)
+      -
+        id: h2-color-
+        title: H2 Colour
+        description: Change this to change the colour of the H2 line.
+        type: variable-select
+        default: var(--bright-green)
+        options:
+            - var(--bright-red)
+            - var(--bright-orange)
+            - var(--bright-yellow)
+            - var(--bright-green)
+            - var(--bright-turquoise)
+            - var(--bright-blue)
+            - var(--bright-purple)
+            - var(--bright-pink)
+			- var(--default-color-)
+      -
+        id: h3-color-
+        title: H3 Colour
+        description: Change this to change the colour of the H3 line.
+        type: variable-select
+        default: var(--bright-yellow)
+        options:
+            - var(--bright-red)
+            - var(--bright-orange)
+            - var(--bright-yellow)
+            - var(--bright-green)
+            - var(--bright-turquoise)
+            - var(--bright-blue)
+            - var(--bright-purple)
+            - var(--bright-pink)
+			- var(--default-color-)
+      -
+        id: h4-color-
+        title: H4 Colour
+        description: Change this to change the colour of the H4 line.
+        type: variable-select
+        default: var(--bright-orange)
+        options:
+            - var(--bright-red)
+            - var(--bright-orange)
+            - var(--bright-yellow)
+            - var(--bright-green)
+            - var(--bright-turquoise)
+            - var(--bright-blue)
+            - var(--bright-purple)
+            - var(--bright-pink)
+			- var(--default-color-)
+      -
+        id: h5-color-
+        title: H5 Colour
+        description: Change this to change the colour of the H5 line.
+        type: variable-select
+        default: var(--bright-red)
+        options:
+            - var(--bright-red)
+            - var(--bright-orange)
+            - var(--bright-yellow)
+            - var(--bright-green)
+            - var(--bright-turquoise)
+            - var(--bright-blue)
+            - var(--bright-purple)
+            - var(--bright-pink)
+			- var(--default-color-)
+      -
+        id: h6-color-
+        title: H6 Colour
+        description: Change this to change the colour of the H6 line.
+        type: variable-select
+        default: var(--bright-pink)
+        options:
+            - var(--bright-red)
+            - var(--bright-orange)
+            - var(--bright-yellow)
+            - var(--bright-green)
+            - var(--bright-turquoise)
+            - var(--bright-blue)
+            - var(--bright-purple)
+            - var(--bright-pink)
+			- var(--default-color-)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+/* ========================================================================== */
+
+/* Put a new image url here to change the vault header image. */
+--img-header: url("https://images.unsplash.com/photo-1576235789670-28a9c8e950b8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+
+/* ========================================================================== */
+/* CONTENTS
+1. Fonts
+2. Colour Palette
+3. Headers and emphasis
+4. UI and Panels
+5. Popovers
+6. Tables
+7. Code
+8. Frontmatter
+9. Page Header
+10. Jazzy block boxes
+11. Tags
+12. Summary boxes and callouts
+
+
+/* 2. Colour Palette */
+/* -------------------------------------------------------------------------- */
+
+/* Define colour variables for reuse */
+/* Colours */
+    --primary-accent:#418AB3;
+    --accent-muted:var(--primary-accent)00;
+
+    --bright-red: #DF5327;
+    --bright-orange: #F29000;
+    --bright-yellow: #F1B801;
+    --bright-green: #A6B727;
+    --bright-turquoise:#28a197;
+    --bright-blue: #418AB3;
+    --bright-purple: #6A3A96;
+    --bright-pink: #f15bb0;
+
+    --muted-red: #FBEAE5;
+    --muted-orange: #FFF0D9;
+    --muted-yellow: #FFF9E7;
+    --muted-green: #F0F5D0;
+    --muted-blue: #D8E8F1;
+    --muted-purple: #ECDFF5;
+    --muted-pink: #FFEFFB;
+
+    --grey-ultralight:	#F5F5F5;
+    --grey-light: #C0C0C0;
+    --grey-mid: #555555;
+    --grey-1:#363d44;
+  	--grey-2:#30363d;
+  	--grey-dark:#2a3035;
+  	--grey-4:#24292e;
+  	--grey-5:#1e2226;
+  	--grey-6:#181b1e;
+
+    /*Header underline Colours*/
+    --h1-color-:var(--bright-blue);
+    --h2-color-:var(--bright-green);
+    --h3-color-:var(--bright-yellow);
+    --h4-color-:var(--bright-orange);
+    --h5-color-:var(--bright-red);
+    --h6-color-:var(--bright-pink);
+	--default-color-:;
+
+}
+
+
+
+
+/* 3. Headers and Emphasis */
+/* -------------------------------------------------------------------------- */
+
+/* Header formatting */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+
+/* General heading style */
+  .cm-s-obsidian .cm-header {
+    font-family: var(--font-headers);
+    font-weight: 500;
+  }
+  .markdown-preview-view h1,
+  .markdown-preview-view h2,
+  .markdown-preview-view h3,
+  .markdown-preview-view h4,
+  .markdown-preview-view h5,
+  .markdown-preview-view h6 {
+    font-family: var(--font-headers);
+    font-weight: 500;
+  }
+
+  .markdown-preview-view h1 {
+    //font-size: 24px;
+    border-bottom: solid 3px var(--h1-color-);
+    margin-top: 32px;
+    margin-bottom: 4px;
+  }
+
+  .markdown-preview-view h2 {
+    //font-size: 20px;
+    border-bottom: solid 3px var(--h2-color-);
+    margin-top: 23px;
+    margin-bottom: 1px;
+  }
+
+  .markdown-preview-view h3 {
+   //font-size: 18px;
+   border-bottom: solid 3px var(--h3-color-);
+   margin-top: 16px;
+   margin-bottom: 0px;
+ }
+
+  .markdown-preview-view h4  {
+    //font-size: 16px;
+     border-bottom: solid 3px var(--h4-color-);
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+
+  .markdown-preview-view h5 {
+    //font-size: 16px;
+     border-bottom: solid 3px var(--h5-color-);
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+
+  .markdown-preview-view h6  {
+    //font-size: 16px;
+    border-bottom: solid 3px var(--default-color-);
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+
+  .cm-s-obsidian .cm-header-1 {
+    font-size: 24px;
+  }
+
+  .cm-s-obsidian .cm-header-2 {
+    font-size: 20px;
+  }
+
+  .cm-s-obsidian .cm-header-3 {
+    font-size: 18px;
+  }
+
+  .cm-s-obsidian .cm-header-4,
+  .cm-s-obsidian .cm-header-5,
+  .cm-s-obsidian .cm-header-6 {
+    font-size: 16px;
+  }
+
+
+
+
+
+
+
+
+
+
+
 :root {
     --background-primary: rgb(32, 31, 31);
     --background-secondary: rgb(57, 56, 56);
