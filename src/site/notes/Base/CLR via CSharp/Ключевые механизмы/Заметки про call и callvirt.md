@@ -86,7 +86,9 @@ object c = b;
 
 Привет. У тебя несколько нарушены причины и следствия. Поколения отслеживаются GC и он сам делает ранжирование, что куда разместить по определённым правилам. И сам же GC запускает различные вариации сборки мусора.
 
-Если хочешь деталей и разобраться, можешь например почитать вот этот документ (https://github.com/Maoni0/mem-doc/blob/master/doc/.NETMemoryPerformanceAnalysis.md#GC-Fundamentals) (полностью или тот раздел, ссылку на который я кидаю). Либо поищи книгу Konrad Kokosa - Pro .NET Memory Management, где всё максимально подробно (1000 стр) :)
+Если хочешь деталей и разобраться, можешь например почитать вот этот документ (https://github.com/Maoni0/mem-doc/blob/master/doc/.NETMemoryPerformanceAnalysis.md#GC-Fundamentals) (полностью или тот раздел, ссылку на который я кидаю). Либо поищи книгу Konrad Kokosa - Pro .NET Memory Management, где всё максимально подробно (1000 стр) :) На русском книга называлась Управление памятью в .NET для профессионалов | Кокоса Конрад
+
+[[Управление памятью в .NET для профессионалов (Конрад Кокоса) (Z-Library).pdf]]
 
 GitHub (https://github.com/Maoni0/mem-doc/blob/master/doc/.NETMemoryPerformanceAnalysis.md)
 mem-doc/doc/.NETMemoryPerformanceAnalysis.md at master · Maoni0/mem-doc
