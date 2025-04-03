@@ -25,6 +25,8 @@ https://www.youtube.com/watch?v=ZA2X1gaAhJk
 
 https://www.youtube.com/watch?v=ZA2X1gaAhJk
 
+https://github.com/json-editor/json-editor
+
 
 
 Подключение к существующей базе данных
@@ -38,3 +40,5 @@ Scaffold-DbContext "Server=localhost;Database=DynamicQR;Trusted_Connection=True;
 
 - `-OutputDir Models` — папка, в которую будут сгенерированы классы моделей (можно указать любую).
 - `-Force` — перезапишет существующие классы.
+
+
