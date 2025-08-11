@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/druzhestvennye-sborki-friend-assemblies/"}
+dg-publish: true
 ---
-
 
 Аттрибут *InternalsVisibleTo* задает, что типы, видимые обычно только в пределах **текущей** [[Base/CLR via CSharp/Основы CLR/Cборка\|сборки]], являются видимыми для заданной **другой** сборки.
 

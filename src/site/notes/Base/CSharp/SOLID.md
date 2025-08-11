@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/c-sharp/solid/"}
+dg-publish: true
 ---
-
 Принципы ООП для разработки качественного по
 
 ### S: Single Responsibility Principle (Принцип единственной ответственности).

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/vue3/globalnoe-sostoyanie-prilozheniya-vuex/"}
+dg-publish: true
 ---
-
 ![Pasted image 20250131184016.png](/img/user/Files/Image/Pasted%20image%2020250131184016.png)
 https://vuex.vuejs.org/api/#actions
 https://v3.vuex.vuejs.org/ru/guide/mutations.html

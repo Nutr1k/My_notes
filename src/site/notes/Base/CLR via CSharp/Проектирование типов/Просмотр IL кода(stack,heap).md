@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/prosmotr-il-koda-stack-heap/"}
+dg-publish: true
 ---
-
 
 [Sharplab](https://sharplab.io/)
 

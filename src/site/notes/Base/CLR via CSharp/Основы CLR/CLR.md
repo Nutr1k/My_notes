@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/osnovy-clr/clr/"}
+dg-publish: true
 ---
-
 
 CLR (Command Language Runtime) — Общеязыковая среда выполнения(В ней выполняется код). CLR подходит для разных языков программирования (С++, С#, Visual Basic, F#).
 

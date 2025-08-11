@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/peredacha-parametrov-v-metod-po-ssylke-out-i-ref/"}
+dg-publish: true
 ---
-
 
 По умолчанию CLR предполагает, что все параметры методов передаются **по значению**. 
 

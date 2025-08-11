@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/ssylochnye-tipy-reference-types/"}
+dg-publish: true
 ---
-
 
 Память для ссылочных типов всегда выделяется из **управляемой кучи**, а [[Base/CLR via CSharp/Проектирование типов/Оператор new\|оператор new]] возвращает адрес в памяти, где размещается сам объект. 
 

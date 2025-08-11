@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/algoritmy/algoritm-k-blizhajshih-sosedej/"}
+dg-publish: true
 ---
-
 
 Алгоритм k-ближайших соседей - классификация предмета по его ближайшим соседям.
 У алгоритма k-ближайших соседей есть два основным применения:

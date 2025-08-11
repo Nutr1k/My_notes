@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/osnovy-clr/globalnyj-kesh-sborok-gac-globalnoe-razvyortyvanie/"}
+dg-publish: true
 ---
-
 
 Место, где располагаются совместно используемые сборки, называют глобальным кэшем сборок (global assembly cache, GAC). В GAC располагаются сборки только со [[Base/CLR via CSharp/Основы CLR/Подпись сборки(Сборки с строгим именем)\|строгими именами]].
 

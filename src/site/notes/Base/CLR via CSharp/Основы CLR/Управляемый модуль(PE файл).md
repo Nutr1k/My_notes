@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/osnovy-clr/upravlyaemyj-modul-pe-fajl/"}
+dg-publish: true
 ---
-
 
 **Управляемый модуль** (managed module) — стандартный переносимый исполняемый (portable executable, PE) файл 32-разрядной (PE32) или 64-разрядной Windows (PE32+), который требует для своего выполнения CLR. 
 > [!info] Определение ECMA 335

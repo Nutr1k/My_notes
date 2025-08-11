@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/klyuchevye-mehanizmy/zametki-pro-call-i-callvirt/"}
+dg-publish: true
 ---
-
 ```csharp
 class A
 {

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/vyzov-virtualnyh-metodov-svojstv-i-sobytij-v-clr/"}
+dg-publish: true
 ---
-
 
 Всё сказанное относится и к виртуальным свойствам и событиям, поскольку они, как показано далее, на самом деле реализуются методами.
 

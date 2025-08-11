@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/klyuchevye-mehanizmy/mnogopotochnos/async-i-await/"}
+dg-publish: true
 ---
-
 ### Async
 
 1. Ключевое слово `async` указывает только на то, что метод может иметь внутри себя вызовы с ключевым словом `await`. Всё, больше ни на что оно не указывает. Будут там эти вызовы или нет - уж как напишете. Если вызовов `await` там нет, то метод явно не асинхронный.

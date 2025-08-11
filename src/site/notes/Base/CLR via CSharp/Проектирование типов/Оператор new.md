@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/operator-new/"}
+dg-publish: true
 ---
-
 
 Employee e = new Employee("ConstructorParam1");
 

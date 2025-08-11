@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/bazovyj-tip-system-object/"}
+dg-publish: true
 ---
-
 
 В CLR каждый объект прямо или косвенно является производным от System.Object.
 Следующие определения идентичны:

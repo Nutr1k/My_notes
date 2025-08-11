@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/c-sharp/patterny/porozhdayushhie-patterny/fabrichnyj-metod-factory-method/"}
+dg-publish: true
 ---
-
 Фабричный метод (Factory Method) - это паттерн, который определяет интерфейс для создания объектов некоторого класса, но непосредственное решение о том, объект какого класса создавать происходит в подклассах. То есть паттерн предполагает, что базовый класс делегирует создание объектов классам-наследникам.
 
 ![Фабричный_метод.drawio.png](/img/user/Files/Image/%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B5%D1%82%D0%BE%D0%B4.drawio.png)

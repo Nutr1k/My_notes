@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/vue3/intersection-observer-api/"}
+dg-publish: true
 ---
-
 Определение когда пользователь долистал страницу.
 
 Следить мы будет за блоком:

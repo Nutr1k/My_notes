@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/obobshheniya-generics/"}
+dg-publish: true
 ---
-
 
 Обобщения (generics) - механизм для многократного использования кода, а именно многократного использования алгоритмов. Обобщения обеспечивают безопасность типов на стадии компиляции.
 

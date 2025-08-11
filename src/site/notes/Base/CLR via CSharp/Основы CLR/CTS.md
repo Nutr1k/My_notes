@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/osnovy-clr/cts/"}
+dg-publish: true
 ---
-
 
 CTS (Common Type System, Общая система типов) - спецификация описывает способ определения и поведение типов.
 

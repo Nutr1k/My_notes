@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/svojstva-properties/"}
+dg-publish: true
 ---
-
 
 Свойство — это член, предоставляющий гибкий механизм для обеспечения инкапсуляция данных. На самом деле это всего лишь пара методов доступа, определенных внутри типа.
 

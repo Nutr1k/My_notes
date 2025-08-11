@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/klyuchevye-mehanizmy/mnogopotochnos/configure-await/"}
+dg-publish: true
 ---
-
 ConfigureAwait - нужен для того, чтобы указать, является ли наш асинхронный метод зависимым от того в каком контексте он будет выполняться. 
 
 `ConfigureAwait(continueOnCapturedContext: false)` используется для предотвращения принудительного вызова колбэка в исходном контексте или планировщике.

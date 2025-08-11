@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/algoritmy/big-o-notacziya-o-bolshoe/"}
+dg-publish: true
 ---
-
 
 
 **Big O **– это мера эффективности «в худшем случае», верхняя граница того, сколько времени потребуется для выполнения задачи.

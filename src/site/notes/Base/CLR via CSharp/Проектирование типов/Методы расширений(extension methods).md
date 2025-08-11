@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/metody-rasshirenij-extension-methods/"}
+dg-publish: true
 ---
-
 
 Методы расширения - позволяют добавлять новые методы в уже существующие типы без создания нового производного класса.
 

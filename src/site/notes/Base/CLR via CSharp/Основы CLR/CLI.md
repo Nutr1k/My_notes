@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/osnovy-clr/cli/"}
+dg-publish: true
 ---
-
 
 CLI (Common Language Infrastructure, Общеязыковая инфраструктура ) - Cпецификация обще языковой инфраструктуры. Определяется спецификацией ECMA-335. Наиболее известными реализациями этого стандарта являются Microsoft .NET Framework, Mono, DotGNU Portable.NET. Спецификация CLI определяет, в частности, архитектуру исполнительной системы .NET — CLR и сервисы, предоставляемые CLR выполняемым программам, классы, предоставляемые библиотекой BCL, синтаксис и мнемонику общего промежуточного языка (Common Intermediate Language).
 

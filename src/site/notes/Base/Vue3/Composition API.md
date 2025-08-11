@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/vue3/composition-api/"}
+dg-publish: true
 ---
-
 ```js
 <template>
     <h1>{{ likes }}</h1>

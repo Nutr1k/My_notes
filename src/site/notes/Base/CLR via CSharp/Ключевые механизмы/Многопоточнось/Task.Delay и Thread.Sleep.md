@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/klyuchevye-mehanizmy/mnogopotochnos/task-delay-i-thread-sleep/"}
+dg-publish: true
 ---
-
 `Task.Delay`не заставляет поток заснуть. Он использует таймер.
 
 Используйте, [`Thread.Sleep`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep)когда хотите заблокировать текущий поток.

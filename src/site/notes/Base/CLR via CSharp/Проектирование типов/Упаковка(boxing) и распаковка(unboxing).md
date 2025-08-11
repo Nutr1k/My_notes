@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/upakovka-boxing-i-raspakovka-unboxing/"}
+dg-publish: true
 ---
-
 
 ### Boxing:
 

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/osnovy-clr/izmenenie-il-koda/"}
+dg-publish: true
 ---
-
 
 Вариант №1
 1. Открыть dll библиотеку с помощью IL DASM

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/osnovy-clr/fcl/"}
+dg-publish: true
 ---
-
 
 FCL(Framework Class Library, Библиотека классов Framework) - набор сборок в формате DLL, содержащих несколько тысяч опредений типов(методы, классы, значимые типы, ссылочные и т.д.), каждый из которых представляет некоторую функциональность. 
 

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/klyuchevye-mehanizmy/mnogopotochnos/task-i-thread-pool/"}
+dg-publish: true
 ---
-
 Данный методы используют поток из ThreadPool
 
 ```csharp

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/interfejsy-interfaces/"}
+dg-publish: true
 ---
-
 
 Интерфейс представляет собой **контракт** набор сигнатур методов.  Любой реализующий этот контракт, должен предоставлять реализацию для членов, определенных в интерфейсе.
 

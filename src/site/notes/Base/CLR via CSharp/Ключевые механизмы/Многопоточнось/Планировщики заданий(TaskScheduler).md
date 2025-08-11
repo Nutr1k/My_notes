@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/klyuchevye-mehanizmy/mnogopotochnos/planirovshhiki-zadanij-task-scheduler/"}
+dg-publish: true
 ---
-
 TaskScheduler отвечает за выполнение запланированных заданий
 
 В FCL существует два производных от `TaskScheduler` типа: 

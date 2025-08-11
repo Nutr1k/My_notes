@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/osnovnye-tipy-dannyh/null-sovmestimye-znachimye-tipy/"}
+dg-publish: true
 ---
-
 
 _Значимые типы_ допускающий значение _NULL_ называются null-совместимыми значимыми типами
 

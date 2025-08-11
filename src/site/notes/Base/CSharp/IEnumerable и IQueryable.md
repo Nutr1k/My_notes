@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/c-sharp/i-enumerable-i-i-queryable/"}
+dg-publish: true
 ---
-
 ![1_wNY_M1CggVdEaijsNaCptQ.webp](/img/user/Files/Image/1_wNY_M1CggVdEaijsNaCptQ.webp)
 Интерфейс `IEnumerable` находится в пространстве имен `System.Collections`.
 Объект `IEnumerable` представляет набор данных в памяти и может перемещаться по этим данным **только вперед**

@@ -1,8 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/base/proekty/dinamicheskie-qr-kody/"}
+dg-publish: true
 ---
-
-1. Суть проекта в разработки бэкэнда с вертикальным деление
+1. Суть проекта в разработки бэкэнда с вертикальным делением
 2. Т.к. я не особо могу во фронтенд, то сначала будет минимальный интерфейс:
 	- Страница авторизации
 	- Страница регистрации по коду приглашения
@@ -16,6 +15,9 @@ https://www.milanjovanovic.tech/blog/vertical-slice-architecture
 https://code-maze.com/vertical-slice-architecture-aspnet-core/
 https://bool.dev/blog/detail/obzor-vertical-slice-architecture
 
+
+
+
 https://leonidchernenko.ru/vertical-slice/
 
 https://github.com/jonowilliams26/StructuredMinimalApi
@@ -27,7 +29,7 @@ https://www.youtube.com/watch?v=ZA2X1gaAhJk
 
 https://github.com/json-editor/json-editor
 
-
+111111111111111111111111111111111
 
 Подключение к существующей базе данных
 

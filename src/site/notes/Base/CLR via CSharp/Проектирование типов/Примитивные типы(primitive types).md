@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/clr-via-c-sharp/proektirovanie-tipov/primitivnye-tipy-primitive-types/"}
+dg-publish: true
 ---
-
 
 Типы данных, которые поддерживаются компилятором напрямую, называются **примитивными** (primitive types). У примитивных типов в CLR есть IL-команд для  работы с данными типами.  
 

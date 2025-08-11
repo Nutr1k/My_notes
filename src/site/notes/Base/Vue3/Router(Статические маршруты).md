@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/base/vue3/router-staticheskie-marshruty/"}
+dg-publish: true
 ---
-
 `router/router.js`
 
 `const routes` - массив содержащий маршруты к компонентам
